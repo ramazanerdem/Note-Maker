@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import SearchInput from "./companents/SearchInput";
+import CreateNote from "./companents/CreateNote";
+import Notes from "./companents/Notes";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container bg-gray-400 mx-auto h-auto flex flex-col gap-2 items-center py-10 shadow-md shadow-gray-500">
+      <h1 className="text-5xl mb-5 font-mono font-bold">Note Maker</h1>
+      <SearchInput />
+      <CreateNote />
+      <Notes />
+
     </div>
   );
 }
