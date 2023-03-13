@@ -7,7 +7,7 @@ export const notesSlice = createSlice({
     item: {
       id: "",
       text: "",
-      color: "bg-green"
+      color: ""
     },
     filteredNotes: [],
     filteredText: ""

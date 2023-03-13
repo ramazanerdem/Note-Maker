@@ -11,7 +11,7 @@ const CreateInput = () => {
   }
 
   return (
-    <textarea onChange={(text) => handleChange(text)} value={text} placeholder='Enter your note here...' className='focus:outline-none text-base md:text-lg rounded-xl border-2 border-gray-200 h-60 md:h-52 shadow-2xl p-3' />
+    <textarea onChange={(text) => handleChange(text)} value={text} placeholder='Enter your note here...' className='bg-zinc-900 text-white focus:outline-none text-base md:text-lg rounded-xl border-2 border-gray-200 h-32 sm:h-52 shadow-2xl p-3' />
   )
 }
 

@@ -11,7 +11,7 @@ const SearchInput = () => {
 
   return (
     <>
-      <input onChange={(text) => handleSearch(text)} placeholder="Searching your notes..." className="text-sm rounded-full border-2 border-gray-400 shadow-lg px-4 py-2 focus:outline-none" />
+      <input onChange={(text) => handleSearch(text)} placeholder="Searching notes..." className="w-1/2 bg-zinc-900 text-xs text-white rounded-full border-2 border-gray-400 shadow-lg px-4 py-2 focus:outline-none" />
     </>
   )
 }
