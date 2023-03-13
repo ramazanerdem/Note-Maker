@@ -11,7 +11,7 @@ function App() {
       </div>
       <CreateNote />
       <Notes />
-      <footer className="text-white absolute bottom-2">
+      <footer className="text-white">
         <p>Created by RamazanErdem </p>
       </footer>
 
